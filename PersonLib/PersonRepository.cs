@@ -25,7 +25,7 @@ namespace PersonLib
         }
         public Person Add(Person person)
         {
-            _context.Persons.Add(person);
+            _context.Persons.Add(person);          
             _context.SaveChanges();
             return person;
 
